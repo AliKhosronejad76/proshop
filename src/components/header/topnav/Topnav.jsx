@@ -11,7 +11,7 @@ export default function Topnav(){
               <Logo/>
               <Search/>
             </div>
-            <div className="text-gray-700 flex items-center justify-end w-[30%]">
+            <div className="text-gray-700 flex items-center justify-end w-[28%]">
                 <Phone/>
                 <LoginButton/>
                 <ShopCardButton/>
