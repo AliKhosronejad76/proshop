@@ -1,7 +1,9 @@
+import StoriesRow from "../components/stories/StoriesRow"
+
 export default function HomePage(){
     return(
         <>
-            this is a home
+            <StoriesRow/>           
         </>
     )
 }
