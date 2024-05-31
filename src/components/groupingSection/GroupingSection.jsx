@@ -1,5 +1,6 @@
 import { groupingItems } from "../../data"
 import Item from "./Item"
+import ZoomBanner from "../module/ZoomBanner"
 
 export default function GroupingSection(){
     return(
@@ -10,6 +11,11 @@ export default function GroupingSection(){
                 {
                     groupingItems.map((item, index )=> <Item data={item} key={index}/>)
                 }
+            </div>
+
+            <div className="flex items-center justify-between px-6 my-8">
+                <ZoomBanner img={"/img/home-banner-b1.webp"} imgAlt={"banner2"} width={"49%"}/>
+                <ZoomBanner img={"/img/home-banner-bb2.webp"} imgAlt={"banner1"} width={"49%"}/>
             </div>
         </div>
     )
