@@ -1,10 +1,10 @@
 export default function ListItem ({ text , icon }){
     return(
-        <li className="text-[#7e96a2] text-sm flex  py-2">
-            <div className="flex items-center text-[#7e96a2] h-full">
+        <li className="text-gray-600 text-sm flex  py-2">
+            <div className="flex items-center  h-full">
              {icon}
             </div>
-           <span className="mr-3 text-[#7e96a2]">
+           <span className="mr-3 ">
              {text}
            </span>
         </li>
