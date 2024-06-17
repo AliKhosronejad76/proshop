@@ -18,4 +18,9 @@ a{
 }
 body{
   font-family: 'bakh-reg';
+  
+  
+}
+#root{
+  transition: all 400ms ease-in-out;
 }
