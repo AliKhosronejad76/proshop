@@ -7,20 +7,24 @@
   padding:0;
   box-sizing:border-box;
 }
+
 input,
 button,
 select,
 textarea{
   font-family: inherit;
 }
+
 a{
   text-decoration: none;
 }
+
 body{
   font-family: 'bakh-reg';
-  
+  direction: rtl;
   
 }
+
 #root{
   transition: all 400ms ease-in-out;
 }

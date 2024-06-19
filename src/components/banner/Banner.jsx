@@ -23,7 +23,7 @@ export default function Banner(){
       <div onMouseEnter={()=>setArrow(true)} onMouseLeave={()=>setArrow(false)}>
             <Slider {...settings} className="relative">
                <BannerSlide img="/img/home-slide-18.webp"/>
-              <BannerSlide img="/img/home-slide-15.webp" />
+               <BannerSlide img="/img/home-slide-15.webp" />
            </Slider>
       </div>
       
