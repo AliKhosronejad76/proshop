@@ -22,10 +22,11 @@ a{
 body{
   font-family: 'bakh-reg';
   direction: rtl;
-  position:relative;
+  
   
 }
 
 #root{
-  transition: all 400ms ease-in-out;
+  
+  overflow-x: hidden;
 }

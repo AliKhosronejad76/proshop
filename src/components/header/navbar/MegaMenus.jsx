@@ -4,7 +4,7 @@ import ProductsCategoriesMenu from "../../module/productscategoriesmenu/Products
 
 export default function MegaMenus(){
     return(
-        <div className="h-full bg-red-500 flex">
+        <div className="h-full  flex">
             <ProductsCategoriesMenu/>
         </div>
     )

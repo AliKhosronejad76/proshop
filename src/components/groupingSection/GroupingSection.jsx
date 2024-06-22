@@ -1,4 +1,4 @@
-// import { groupingItems } from "../../data"
+import { groupingItems } from "../../groupdata"
 import Item from "./Item"
 import ZoomBanner from "../module/ZoomBanner"
 import Row from "../module/Row"
@@ -9,7 +9,7 @@ export default function GroupingSection(){
         
             <div className="flex flex-wrap justify-center mt-4 mb-6 px-32">
                 {
-                    // groupingItems.map((item, index )=> <Item data={item} key={index}/>)
+                    groupingItems.map((item, index )=> <Item data={item} key={index}/>)
                 }
             </div>
             <Row>
