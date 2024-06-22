@@ -1,16 +1,19 @@
-import FavButton from "./FavButton"
-import OffButton from "./OffButton"
+import Actions from "./Actions"
+import MegaMenus from "./MegaMenus"
 
 export default function Navbar(){
     return(
-        <nav className="sticky top-0 px-5 py-2.5 bg-white flex items-center justify-between shadow-2xl">
-            <div>
-
-            </div>
-            <div className="flex text-gray-700">
-                <FavButton/>
-                <OffButton/>
-            </div>
+        <nav className="h-[30px] relative sticky top-0 z-900 px-5 h-[50px] bg-white flex justify-between shadow-2xl ">
+           <MegaMenus/>
+           <Actions/>
         </nav>
     )
 } 
+
+
+
+
+
+
+
+
