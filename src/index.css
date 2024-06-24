@@ -20,13 +20,15 @@ a{
 }
 
 body{
-  font-family: 'bakh-reg';
+  font-family: 'bakh-bold';
   direction: rtl;
   
   
 }
 
 #root{
-  
   overflow-x: hidden;
+}
+p , a , ul , li , span , h1 , h2 , h3 ,h4 ,h5  ,input {
+  color: rgb(73, 73, 73) ;
 }
