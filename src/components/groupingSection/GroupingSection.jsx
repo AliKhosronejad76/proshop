@@ -1,4 +1,4 @@
-import { groupingItems } from "../../data"
+import { groupingItems } from "../../groupdata"
 import Item from "./Item"
 import ZoomBanner from "../module/ZoomBanner"
 import Row from "../module/Row"

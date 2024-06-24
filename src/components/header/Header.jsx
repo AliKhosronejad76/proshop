@@ -3,7 +3,7 @@ import Navbar from "./navbar/Navbar"
 
 export default function Header(){
     return(
-        <header>
+        <header className="relative z-30">
             <Topnav/>
             <Navbar/>
         </header>
