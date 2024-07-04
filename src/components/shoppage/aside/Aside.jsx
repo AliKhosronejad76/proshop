@@ -1,7 +1,10 @@
+import FilterBox from "./filterBox/FilterBox"
+
+
 export default function Aside(){
       return(
-            <aside>
-                  
+            <aside className="w-[25%] px-3">
+                  <FilterBox/>                  
             </aside>
       )
 }

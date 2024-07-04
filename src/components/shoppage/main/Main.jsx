@@ -1,7 +1,16 @@
 export default function Main(){
       return(
-            <main>
-                  amin
+            <main className="w-[75%]">
+                  dsfsdfdffdsfdfdsfg
+                  fdg
+                  fgfdgsfdggfgfg
+                  fgfdgsfdggfgfg
+                  fgfdgsfdggfgfg
+                  fgfdgsfdggfgfg
+                  fgfdgsfdggfgfg
+                  fgfdgsfdggfgfg
+                  s
+                  fgfdgsfdggfgfg
             </main>
       )
 }
