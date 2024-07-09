@@ -6,7 +6,8 @@ import PopularBrandsSection from "../components/popularbrandssection/PopularBran
 import ArticleSection from "../components/articlesection/ArticleSection"
 import SpecialProducts from "../components/SpecialProducts/SpecialProducts"
 import NewProducts from "../components/newProductsSection/NewProducts"
-
+import ProductsSort from "../components/shoppage/main/ProductsSort"
+import FilterBox from "../components/shoppage/aside/filterBox/FilterBox"
 export default function HomePage(){
     return(
         <>
@@ -18,6 +19,8 @@ export default function HomePage(){
             <PopularBrandsSection />
             <NewProducts/>
             <ArticleSection/>
+            <ProductsSort/>
+            <FilterBox/>
         </>
     )
 }
